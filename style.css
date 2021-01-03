@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #eee;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.er-code {
+  display: flex;
+  flex-flow: row wrap;
+  align-self: center;
+  width: 800px;
+  height: 800px;
+
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 5px #eee;
+
+  /*
+  background: white;
+  color: black;
+  */
+  background: black;
+  color: white;
+}
+
+.er-code span {
+  flex: 0 1 calc(100% / 8);
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 100px;
+  height: calc(100% / 8);
+}
